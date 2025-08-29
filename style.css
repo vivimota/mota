@@ -1,8 +1,45 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght @0,500;1,500&family=Manrope:wght@200..800&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
 
+body {
+    width: 100vw;
+}
 
+.logo{
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color: rgb(111, 248, 141);
+    height: 10vh;
+    width: 100vw;
+    padding: 5px;
+}
+
+.header{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    gap: 25px;
+
+}
+
+img{
+    width: 100px;
+}
